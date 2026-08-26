@@ -11,193 +11,194 @@ import bonus5 from "@/assets/bonus-5.jpg";
 import bonus6 from "@/assets/bonus-6.jpg";
 
 export const gallery = [
-  { src: gallery1, caption: "O Semeador da Boa Nova" },
-  { src: gallery2, caption: "A Luz do Tempo da Alma" },
-  { src: gallery3, caption: "Parábola do Coração" },
-  { src: gallery4, caption: "Corrente da Fraternidade" },
-  { src: gallery5, caption: "Caminhos do Bem" },
+  { src: gallery1, caption: "El Sembrador de la Buena Nueva" },
+  { src: gallery2, caption: "La Luz del Tiempo del Alma" },
+  { src: gallery3, caption: "Parábola del Corazón" },
+  { src: gallery4, caption: "Cadena de la Fraternidad" },
+  { src: gallery5, caption: "Caminos del Bien" },
 ];
 
 export const pills = [
-  "🎲 Jogos e gincanas",
+  "🎲 Juegos y dinámicas",
   "📖 Parábolas ilustradas",
-  "🎨 Atividades criativas",
-  "🕊️ Reflexões espíritas",
-  "🧒 Dinâmicas em grupo",
-  "📋 Roteiros prontos",
+  "🎨 Actividades creativas",
+  "🕊️ Reflexiones espíritas",
+  "🧒 Dinámicas grupales",
+  "📋 Guiones listos",
 ];
 
 export const features = [
   {
     icon: "🕊️",
-    title: "Jesus e os Ensinamentos",
-    desc: "Atividades sobre a vida e as parábolas do Mestre Jesus para encantar as crianças.",
+    title: "Jesús y sus Enseñanzas",
+    desc: "Actividades sobre la vida y las parábolas del Maestro Jesús para inspirar a los niños.",
   },
   {
     icon: "📘",
-    title: "Allan Kardec e a Codificação",
-    desc: "Dinâmicas leves para apresentar a história da Doutrina Espírita aos pequenos.",
+    title: "Allan Kardec y la Codificación",
+    desc: "Dinámicas amenas para presentar la historia de la Doctrina Espírita a los más pequeños.",
   },
   {
     icon: "💛",
-    title: "Fraternidade e Amor ao Próximo",
-    desc: "Vivências práticas para despertar empatia, gratidão e solidariedade.",
+    title: "Fraternidad y Amor al Prójimo",
+    desc: "Experiencias prácticas para despertar la empatía, la gratitud y la solidaridad.",
   },
   {
     icon: "🙏",
-    title: "Prece e Concentração",
-    desc: "Momentos de prece guiada e meditação adaptados para a infância.",
+    title: "Oración y Concentración",
+    desc: "Momentos de oración guiada y meditación adaptados para la infancia.",
   },
   {
     icon: "🌱",
     title: "Reforma Íntima",
-    desc: "Atividades sobre virtudes, perdão, paciência e autoconhecimento.",
+    desc: "Actividades sobre virtudes, perdón, paciencia y autoconocimiento.",
   },
   {
     icon: "👼",
     title: "Mundo Espiritual",
-    desc: "Histórias e dinâmicas sobre os Espíritos, anjos guardiões e a vida maior.",
+    desc: "Historias y dinámicas sobre los Espíritus, ángeles guardianes y la vida espiritual.",
   },
   {
     icon: "🎨",
-    title: "Atividades Criativas",
-    desc: "Desenhos, pinturas, dobraduras e artesanato com temas espíritas.",
+    title: "Actividades Creativas",
+    desc: "Dibujos, pinturas, origami y manualidades con temas espíritas.",
   },
   {
     icon: "🎲",
-    title: "Jogos e Gincanas",
-    desc: "Caça ao tesouro, jogo da memória, quiz espírita e muito mais.",
+    title: "Juegos y Dinámicas",
+    desc: "Búsqueda del tesoro, juego de memoria, quiz espírita y mucho más.",
   },
   {
     icon: "🎭",
-    title: "Teatro e Encenações",
-    desc: "Roteiros prontos de pequenas peças e parábolas encenadas.",
+    title: "Teatro y Dramatizaciones",
+    desc: "Guiones listos para pequeñas obras y parábolas dramatizadas.",
   },
 ];
 
 export const audience = [
-  "Evangelizadores espíritas iniciantes",
-  "Evangelizadores experientes que buscam novas ideias",
-  "Mães e pais espíritas que evangelizam em casa",
-  "Casas espíritas e grupos de evangelização",
-  "Professores que querem ensinar com amor e leveza",
-  "Quem deseja preparar aulas em poucos minutos",
+  "Evangelizadores espíritas principiantes",
+  "Evangelizadores experimentados que buscan nuevas ideas",
+  "Madres y padres espíritas que evangelizan en casa",
+  "Centros espíritas y grupos de evangelización",
+  "Profesores que quieren enseñar con amor y ligereza",
+  "Quienes desean preparar clases en pocos minutos",
 ];
 
 export const benefits = [
-  "Mais de 500 dinâmicas testadas e aprovadas",
-  "Atividades para todas as faixas etárias",
-  "Lições sobre Jesus, Kardec, valores e virtudes",
-  "Jogos, gincanas, parábolas e encenações",
-  "Material organizado por ciclos e temas",
-  "Acesso vitalício com atualizações futuras",
+  "Más de 500 dinámicas probadas y aprobadas",
+  "Actividades para todas las edades",
+  "Lecciones sobre Jesús, Kardec, valores y virtudes",
+  "Juegos, dinámicas, parábolas y dramatizaciones",
+  "Material organizado por ciclos y temas",
+  "Acceso de por vida con futuras actualizaciones",
 ];
 
 export const bonuses = [
   {
     img: bonus1,
     n: 1,
-    title: "Modelo de Planejamento Anual (PPI)",
-    desc: "Planejamento Pedagógico Individual pronto para você organizar o ano inteiro de evangelização.",
-    price: "R$ 39,90",
+    title: "Modelo de Planificación Anual (PPI)",
+    desc: "Planificación Pedagógica Individual lista para organizar todo el año de evangelización.",
+    price: "US$ 10,00",
   },
   {
     img: bonus2,
     n: 2,
-    title: "50 Histórias Espíritas para Crianças",
-    desc: "Coletânea de histórias curtas e ilustradas para contar durante as aulas e momentos de prece.",
-    price: "R$ 32,00",
+    title: "50 Historias Espíritas para Niños",
+    desc: "Colección de historias cortas e ilustradas para contar durante las clases y momentos de oración.",
+    price: "US$ 9,00",
   },
   {
     img: bonus3,
     n: 3,
-    title: "Dinâmicas para Datas Espíritas Especiais",
-    desc: "Atividades temáticas para Páscoa, Natal, Dia do Espírita e outras datas marcantes do movimento.",
-    price: "R$ 42,00",
+    title: "Dinámicas para Fechas Espíritas Especiales",
+    desc: "Actividades temáticas para Pascua, Navidad, Día del Espírita y otras fechas importantes del movimiento.",
+    price: "US$ 11,00",
   },
   {
     img: bonus4,
     n: 4,
-    title: "Coleção Preces para Evangelizadores",
-    desc: "Mais de 80 preces selecionadas para abrir, conduzir e encerrar suas aulas com a vibração certa.",
-    price: "R$ 25,00",
+    title: "Colección de Oraciones para Evangelizadores",
+    desc: "Más de 80 oraciones seleccionadas para abrir, conducir y cerrar tus clases con la vibración adecuada.",
+    price: "US$ 7,00",
   },
   {
     img: bonus5,
     n: 5,
-    title: "Cancioneiro Espírita Infantil",
-    desc: "Repertório musical com letras e cifras para enriquecer cada encontro de evangelização.",
-    price: "R$ 29,00",
+    title: "Cancionero Espírita Infantil",
+    desc: "Repertorio musical con letras y acordes para enriquecer cada encuentro de evangelización.",
+    price: "US$ 7,00",
   },
   {
     img: bonus6,
     n: 6,
-    title: "Pequeno Glossário Espírita Infantil",
-    desc: "Os principais termos da Doutrina Espírita explicados em linguagem simples para as crianças.",
-    price: "R$ 19,00",
+    title: "Pequeño Glosario Espírita Infantil",
+    desc: "Los principales términos de la Doctrina Espírita explicados con un lenguaje sencillo para los niños.",
+    price: "US$ 5,00",
   },
 ];
+
 
 export const testimonials = [
   {
     name: "Juliana M.",
-    date: "18 Fevereiro 2026",
-    text: "Antes eu passava horas pesquisando ideias. Agora preparo uma aula em 10 minutos e fica muito melhor.",
+    date: "18 Febrero 2026",
+    text: "Antes pasaba horas buscando ideas. Ahora preparo una clase en 10 minutos y queda mucho mejor.",
   },
   {
     name: "Renata S.",
-    date: "22 Janeiro 2026",
-    text: "Material excelente para a casa espírita. Os bônus sozinhos já valem o investimento. Recomendo de coração.",
+    date: "22 Enero 2026",
+    text: "Excelente material para el centro espírita. Los bonos por sí solos ya valen la inversión. Lo recomiendo de corazón.",
   },
   {
     name: "Ana Paula L.",
-    date: "10 Janeiro 2026",
-    text: "Aplico em casa com meus filhos. Conseguimos conversar sobre Jesus e Kardec de um jeito leve e divertido.",
+    date: "10 Enero 2026",
+    text: "Lo aplico en casa con mis hijos. Podemos hablar sobre Jesús y Kardec de una manera ligera y divertida.",
   },
   {
     name: "Camila R.",
-    date: "8 Janeiro 2026",
-    text: "Sou evangelizadora há 6 anos e esse material renovou totalmente minhas aulas. As crianças amam as dinâmicas!",
+    date: "3 Enero 2026",
+    text: "Soy evangelizadora desde hace 6 años y este material renovó por completo mis clases. ¡A los niños les encantan las dinámicas!",
   },
   {
     name: "Gabriela F.",
-    date: "12 Dezembro 2025",
-    text: "Material lindo e bem preparado. Dá pra sentir o cuidado e o amor em cada dinâmica. Recomendo demais!",
+    date: "12 Diciembre 2025",
+    text: "Material hermoso y muy bien preparado. Se puede sentir el cuidado y el amor en cada dinámica. ¡Lo recomiendo muchísimo!",
   },
   {
     name: "Mariana D.",
-    date: "5 Janeiro 2026",
-    text: "O planejamento anual dos bônus me salvou. Consegui organizar o ano todo da evangelização em uma tarde.",
+    date: "5 Enero 2026",
+    text: "La planificación anual de los bonos me salvó. Pude organizar todo el año de evangelización en una tarde.",
   },
   {
     name: "Larissa P.",
-    date: "20 Dezembro 2025",
-    text: "Acabei de comprar e já estou usando. Conteúdo profundo, mas apresentado com muita leveza e amor.",
+    date: "20 Diciembre 2025",
+    text: "Acabo de comprarlo y ya me encanta. Contenido profundo, pero presentado con mucha ligereza y amor.",
   },
 ];
 
 export const basicList: { text: string; ok: boolean }[] = [
-  { text: "Acesso a 100 dinâmicas selecionadas", ok: true },
-  { text: "Modelo de Planejamento Anual (PPI)", ok: false },
-  { text: "50 Histórias Espíritas para Crianças", ok: false },
-  { text: "Dinâmicas para Datas Espíritas Especiais", ok: false },
-  { text: "Coleção Preces para Evangelizadores", ok: false },
-  { text: "Cancioneiro Espírita Infantil", ok: false },
-  { text: "Pequeno Glossário Espírita Infantil", ok: false },
+  { text: "Acceso a 100 dinámicas seleccionadas", ok: true },
+  { text: "Modelo de Planificación Anual (PPI)", ok: false },
+  { text: "50 Historias Espíritas para Niños", ok: false },
+  { text: "Dinámicas para Fechas Espíritas Especiales", ok: false },
+  { text: "Colección de Oraciones para Evangelizadores", ok: false },
+  { text: "Cancionero Espírita Infantil", ok: false },
+  { text: "Pequeño Glosario Espírita Infantil", ok: false },
 ];
 
 export const completeList = [
-  "+500 dinâmicas espíritas completas",
-  "🎁 Bônus #1 Modelo de Planejamento Anual (PPI)",
-  "🎁 Bônus #2 50 Histórias Espíritas para Crianças",
-  "🎁 Bônus #3 Dinâmicas para Datas Espíritas Especiais",
-  "🎁 Bônus #4 Coleção Preces para Evangelizadores",
-  "🎁 Bônus #5 Cancioneiro Espírita Infantil",
-  "🎁 Bônus #6 Pequeno Glossário Espírita Infantil",
-  "🔄 Acesso vitalício e atualizações gratuitas",
-  "🛡️ Garantia incondicional de 7 dias",
-  "📧 Suporte prioritário por e-mail",
-  "🔒 Compra 100% segura e protegida",
+  "+500 dinámicas espíritas completas",
+  "🎁 Bono #1 Modelo de Planificación Anual (PPI)",
+  "🎁 Bono #2 50 Historias Espíritas para Niños",
+  "🎁 Bono #3 Dinámicas para Fechas Espíritas Especiales",
+  "🎁 Bono #4 Colección de Oraciones para Evangelizadores",
+  "🎁 Bono #5 Cancionero Espírita Infantil",
+  "🎁 Bono #6 Pequeño Glosario Espírita Infantil",
+  "🔄 Acceso de por vida y actualizaciones gratuitas",
+  "🛡️ Garantía incondicional de 7 días",
+  "📧 Soporte prioritario por e-mail",
+  "🔒 Compra 100% segura y protegida",
 ];
 
 export const faqs = [
@@ -232,4 +233,3 @@ export const faqs = [
       "Sí, cuentas con una garantía incondicional de 7 días. Si por cualquier motivo sientes que el material no cumple tus expectativas, te devolvemos el 100% de tu inversión sin preguntas.",
   },
 ];
-
