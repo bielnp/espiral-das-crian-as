@@ -26,13 +26,13 @@ import {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "+500 Dinámicas para Evangelización Espírita Infantil" },
+      { title: "+500 Dinámicas para Evangelización Católica Infantil" },
       {
         name: "description",
         content:
-          "Más de 500 dinámicas, juegos y actividades para la evangelización infantil espírita con 6 bonos exclusivos y acceso de por vida.",
+          "Más de 500 dinámicas, juegos y actividades para la catequesis y evangelización infantil católica con 6 bonos exclusivos y acceso de por vida.",
       },
-      { property: "og:title", content: "+500 Dinámicas para Evangelización Espírita Infantil" },
+      { property: "og:title", content: "+500 Dinámicas para Evangelización Católica Infantil" },
       {
         property: "og:description",
         content:
@@ -82,19 +82,19 @@ function Index() {
       {/* 2. Hero */}
       <section className="bg-softgray px-4 py-14 sm:py-20">
         <div className="mx-auto max-w-5xl text-center">
-          <Badge>🕊️ Material digital para evangelizadores</Badge>
+          <Badge>🕊️ Material digital para catequistas y familias</Badge>
           <h1 className="mx-auto mt-8 max-w-4xl text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl md:text-6xl">
-            +500 Dinámicas para <span className="text-brand">Evangelización Espírita Infantil</span>{" "}
+            +500 Dinámicas para <span className="text-brand">Evangelización Católica Infantil</span>{" "}
             listas para aplicar hoy mismo
           </h1>
           <p className="mx-auto mt-6 max-w-3xl text-base leading-relaxed text-muted-foreground sm:text-lg">
             Más de 500 dinámicas, juegos y actividades organizadas por edad y tema para enseñar la
-            Doctrina Espírita con amor, creatividad y ligereza en la evangelización infantil.
+            fe católica con amor, creatividad y ligereza en la catequesis e infancia.
           </p>
           <div className="mt-10 rounded-3xl bg-white p-4 shadow-[0_20px_60px_-20px_rgba(15,23,42,0.25)] sm:p-10">
             <img
               src={heroMockup}
-              alt="+500 Dinámicas para Evangelización Espírita Infantil"
+              alt="+500 Dinámicas para Evangelización Católica Infantil"
               width={1200}
               height={912}
               className="mx-auto w-full max-w-3xl"
@@ -108,7 +108,7 @@ function Index() {
               Quiero Acceder Ahora
             </a>
             <p className="mt-4 text-xs font-semibold text-muted-foreground sm:text-sm">
-              ⭐ +3.200 evangelizadores ya lo han adquirido
+              ⭐ +3.200 catequistas y familias ya lo han adquirido
             </p>
           </div>
         </div>
@@ -118,13 +118,13 @@ function Index() {
       <section className="bg-softblue px-4 py-14 sm:py-20">
         <div className="mx-auto max-w-6xl">
           <div className="text-center">
-            <Badge>📖 Mira lo que includes</Badge>
+            <Badge>📖 Mira lo que incluye</Badge>
             <h2 className="mt-6 text-3xl font-extrabold sm:text-4xl">
-              Mira algunas de las +500 dinámicas espíritas
+              Mira algunas de las +500 dinámicas católicas
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-sm text-muted-foreground sm:text-base">
               Actividades, parábolas, juegos, dinámicas y reflexiones listas para aplicar en la
-              evangelización infantil — paso a paso y con material de apoyo.
+              catequesis infantil — paso a paso y con material de apoyo.
             </p>
           </div>
 
@@ -162,7 +162,7 @@ function Index() {
           <Badge>📦 Contenido completo</Badge>
           <h2 className="mt-6 text-3xl font-extrabold sm:text-5xl">Lo que vas a recibir</h2>
           <p className="mx-auto mt-4 max-w-xl text-muted-foreground">
-            Todo organizado por ciclos y temas para encontrar la dinámica adecuada en segundos.
+            Todo organizado por temas y virtudes para encontrar la dinámica adecuada en segundos.
           </p>
           <div className="mt-12 grid gap-6 text-left sm:grid-cols-2 lg:grid-cols-3">
             {features.map((f) => (
@@ -189,7 +189,7 @@ function Index() {
             Ideal para <span className="text-success">ti</span> que deseas...
           </h2>
           <p className="mx-auto mt-4 max-w-lg text-muted-foreground">
-            Un material versátil para todos los que desean evangelizar con más seguridad y amor.
+            Un material versátil para todos los que desean enseñar la fe católica con más seguridad y amor.
           </p>
           <div className="mt-10 rounded-3xl bg-white p-6 text-left shadow-lg sm:p-10">
             <ul className="grid gap-x-10 sm:grid-cols-2">
@@ -219,7 +219,7 @@ function Index() {
             <div className="rounded-3xl bg-white p-5 shadow-lg sm:p-8">
               <img
                 src={packComplete}
-                alt="+500 Dinámicas Espíritas"
+                alt="+500 Dinámicas Católicas"
                 loading="lazy"
                 width={1200}
                 height={912}
@@ -231,11 +231,11 @@ function Index() {
                 ⚡ Acceso inmediato
               </span>
               <h2 className="mt-3 text-2xl font-extrabold sm:text-4xl">
-                +500 Dinámicas Espíritas en un solo lugar
+                +500 Dinámicas Católicas en un solo lugar
               </h2>
               <p className="mt-4 text-sm leading-relaxed text-white/70">
-                Preparar una clase de evangelización lleva tiempo, requiere creatividad y mucha
-                investigación. Con <strong className="text-white">+500 Dinámicas Espíritas™</strong>{" "}
+                Preparar un encuentro de catequesis lleva tiempo, requiere creatividad y mucha
+                investigación. Con <strong className="text-white">+500 Dinámicas Católicas™</strong>{" "}
                 obtienes:
               </p>
               <ul className="mt-6">
@@ -267,7 +267,7 @@ function Index() {
             Además, te llevas 6 bonos exclusivos
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-muted-foreground">
-            Materiales complementarios para enriquecer tus clases — incluidos gratis hoy.
+            Materiales complementarios para enriquecer tus encuentros de catequesis — incluidos gratis hoy.
           </p>
           <div className="mt-12 grid gap-7 text-left sm:grid-cols-2 lg:grid-cols-3">
             {bonuses.map((b) => (
@@ -319,7 +319,7 @@ function Index() {
             Quiénes ya aseguraron sus dinámicas
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-muted-foreground">
-            Historias reales de evangelizadores que transformaron sus clases con el material.
+            Historias reales de catequistas y familias que transformaron sus clases con el material.
           </p>
           <div className="mt-12 grid gap-6 text-left sm:grid-cols-2 lg:grid-cols-3">
             {testimonials.map((t) => (
@@ -457,7 +457,6 @@ function Index() {
                   🔒 Compra 100% segura · Garantía de 7 días
                 </p>
               </div>
-
             </div>
           </div>
         </div>
@@ -504,7 +503,7 @@ function Index() {
               Garantía incondicional de 7 días
             </h2>
             <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-              Accede a todas las dinámicas, revisa los bonos y aplícalos en tus clases. Si por
+              Accede a todas las dinámicas, revisa los bonos y aplícalos en tus clases de catequesis. Si por
               cualquier motivo sientes que no vale cada centavo, solo tienes que enviar un e-mail
               dentro de los 7 días y te devolvemos el{" "}
               <strong className="font-extrabold text-success underline decoration-success/30 underline-offset-4">
@@ -517,7 +516,7 @@ function Index() {
       </section>
 
       <footer className="bg-navy px-4 py-8 text-center text-xs text-white/60">
-        © {new Date().getFullYear()} +500 Dinâmicas para Evangelização Espírita Infantil
+        © {new Date().getFullYear()} +500 Dinámicas para Evangelización Católica Infantil
       </footer>
     </main>
   );

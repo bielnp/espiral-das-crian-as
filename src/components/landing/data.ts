@@ -12,84 +12,84 @@ import bonus6 from "@/assets/bonus-6.jpg";
 
 export const gallery = [
   { src: gallery1, caption: "El Sembrador de la Buena Nueva" },
-  { src: gallery2, caption: "La Luz del Tiempo del Alma" },
-  { src: gallery3, caption: "Parábola del Corazón" },
-  { src: gallery4, caption: "Cadena de la Fraternidad" },
-  { src: gallery5, caption: "Caminos del Bien" },
+  { src: gallery2, caption: "La Sagrada Familia" },
+  { src: gallery3, caption: "Parábolas de Jesús" },
+  { src: gallery4, caption: "La Caridad Cristiana" },
+  { src: gallery5, caption: "El Caminito de los Santos" },
 ];
 
 export const pills = [
   "🎲 Juegos y dinámicas",
-  "📖 Parábolas ilustradas",
+  "📖 Parábolas e historias bíblicas",
   "🎨 Actividades creativas",
-  "🕊️ Reflexiones espíritas",
+  "🕊️ Oraciones y virtudes",
   "🧒 Dinámicas grupales",
-  "📋 Guiones listos",
+  "📋 Guiones y talleres",
 ];
 
 export const features = [
   {
     icon: "🕊️",
     title: "Jesús y sus Enseñanzas",
-    desc: "Actividades sobre la vida y las parábolas del Maestro Jesús para inspirar a los niños.",
+    desc: "Actividades sobre la vida de Jesús, sus parábolas y sus enseñanzas para acercar a los niños a la fe.",
   },
   {
-    icon: "📘",
-    title: "Allan Kardec y la Codificación",
-    desc: "Dinámicas amenas para presentar la historia de la Doctrina Espírita a los más pequeños.",
+    icon: "📖",
+    title: "La Biblia y los Evangelios",
+    desc: "Actividades sencillas para presentar las historias bíblicas y ayudar a los niños a descubrir la Palabra de Dios.",
   },
   {
-    icon: "💛",
-    title: "Fraternidad y Amor al Prójimo",
-    desc: "Experiencias prácticas para despertar la empatía, la gratitud y la solidaridad.",
+    icon: "🌹",
+    title: "María y la Sagrada Familia",
+    desc: "Actividades sobre la Virgen María, San José y la Sagrada Familia.",
   },
   {
     icon: "🙏",
-    title: "Oración y Concentración",
-    desc: "Momentos de oración guiada y meditación adaptados para la infancia.",
+    title: "Oración y Vida Cristiana",
+    desc: "Momentos de oración guiada y actividades para enseñar a los niños a hablar con Dios.",
   },
   {
     icon: "🌱",
-    title: "Reforma Íntima",
-    desc: "Actividades sobre virtudes, perdón, paciencia y autoconocimiento.",
+    title: "Virtudes Cristianas",
+    desc: "Actividades sobre amor, perdón, paciencia, humildad, gratitud, generosidad y solidaridad.",
   },
   {
-    icon: "👼",
-    title: "Mundo Espiritual",
-    desc: "Historias y dinámicas sobre los Espíritus, ángeles guardianes y la vida espiritual.",
+    icon: "✨",
+    title: "Santos y Santas",
+    desc: "Historias y dinámicas sobre santos y santas que pueden inspirar a los niños a vivir la fe.",
   },
   {
     icon: "🎨",
     title: "Actividades Creativas",
-    desc: "Dibujos, pinturas, origami y manualidades con temas espíritas.",
+    desc: "Dibujos, pinturas, manualidades y actividades relacionadas con la fe católica.",
   },
   {
     icon: "🎲",
     title: "Juegos y Dinámicas",
-    desc: "Búsqueda del tesoro, juego de memoria, quiz espírita y mucho más.",
+    desc: "Juegos de memoria, preguntas bíblicas, búsquedas del tesoro, desafíos y mucho más.",
   },
   {
     icon: "🎭",
     title: "Teatro y Dramatizaciones",
-    desc: "Guiones listos para pequeñas obras y parábolas dramatizadas.",
+    desc: "Guiones sencillos para representar parábolas, historias bíblicas y momentos de la vida de los santos.",
   },
 ];
 
 export const audience = [
-  "Evangelizadores espíritas principiantes",
-  "Evangelizadores experimentados que buscan nuevas ideas",
-  "Madres y padres espíritas que evangelizan en casa",
-  "Centros espíritas y grupos de evangelización",
-  "Profesores que quieren enseñar con amor y ligereza",
-  "Quienes desean preparar clases en pocos minutos",
+  "Catequistas católicos principiantes",
+  "Catequistas experimentados que buscan nuevas ideas",
+  "Madres y padres católicos que enseñan la fe en casa",
+  "Parroquias y grupos de catequesis",
+  "Profesores y educadores cristianos",
+  "Personas que desean preparar encuentros de catequesis en pocos minutos",
 ];
 
 export const benefits = [
-  "Más de 500 dinámicas probadas y aprobadas",
-  "Actividades para todas las edades",
-  "Lecciones sobre Jesús, Kardec, valores y virtudes",
+  "Más de 500 dinámicas católicas probadas y aprobadas",
+  "Actividades para todas las edades y grupos de catequesis",
+  "Lecciones sobre Jesús, la Virgen María, virtudes y los Santos",
   "Juegos, dinámicas, parábolas y dramatizaciones",
-  "Material organizado por ciclos y temas",
+  "Material organizado por temas y el calendario litúrgico",
   "Acceso de por vida con futuras actualizaciones",
 ];
 
@@ -97,68 +97,67 @@ export const bonuses = [
   {
     img: bonus1,
     n: 1,
-    title: "Modelo de Planificación Anual (PPI)",
-    desc: "Planificación Pedagógica Individual lista para organizar todo el año de evangelización.",
+    title: "Modelo de Planificación Anual de Catequesis",
+    desc: "Planificación Pedagógica Individual lista para organizar todo el año de catequesis.",
     price: "$ 10,00",
   },
   {
     img: bonus2,
     n: 2,
-    title: "50 Historias Espíritas para Niños",
-    desc: "Colección de historias cortas e ilustradas para contar durante las clases y momentos de oración.",
+    title: "50 Historias Bíblicas para Niños",
+    desc: "Colección de historias cortas e ilustradas para contar durante los encuentros y momentos de oración.",
     price: "$ 9,00",
   },
   {
     img: bonus3,
     n: 3,
-    title: "Dinámicas para Fechas Espíritas Especiales",
-    desc: "Actividades temáticas para Pascua, Navidad, Día del Espírita y otras fechas importantes del movimiento.",
+    title: "Dinámicas para Fechas Católicas Especiales",
+    desc: "Actividades temáticas para Pascua, Navidad, Día de Todos los Santos y otras fechas importantes del calendario litúrgico.",
     price: "$ 11,00",
   },
   {
     img: bonus4,
     n: 4,
-    title: "Colección de Oraciones para Evangelizadores",
-    desc: "Más de 80 oraciones seleccionadas para abrir, conducir y cerrar tus clases con la vibración adecuada.",
+    title: "Colección de Oraciones para Niños y Catequistas",
+    desc: "Más de 80 oraciones seleccionadas para guiar tus encuentros con la bendición de Dios.",
     price: "$ 7,00",
   },
   {
     img: bonus5,
     n: 5,
-    title: "Cancionero Espírita Infantil",
-    desc: "Repertorio musical con letras y acordes para enriquecer cada encuentro de evangelización.",
+    title: "Cancionero Católico Infantil",
+    desc: "Repertorio musical con letras y acordes de canciones católicas infantiles para enriquecer cada encuentro.",
     price: "$ 7,00",
   },
   {
     img: bonus6,
     n: 6,
-    title: "Pequeño Glosario Espírita Infantil",
-    desc: "Los principales términos de la Doctrina Espírita explicados con un lenguaje sencillo para los niños.",
+    title: "Pequeño Glosario de Fe Católica para Niños",
+    desc: "Los principales términos de la fe y la Iglesia Católica explicados con un lenguaje sencillo para los niños.",
     price: "$ 5,00",
   },
 ];
-
 
 export const testimonials = [
   {
     name: "Juliana M.",
     date: "18 Febrero 2026",
-    text: "Antes pasaba horas buscando ideas. Ahora preparo una clase en 10 minutos y queda mucho mejor.",
+    text: "Antes pasaba horas buscando ideas. Ahora preparo un encuentro de catequesis en 10 minutos y queda mucho mejor.",
   },
   {
     name: "Renata S.",
     date: "22 Enero 2026",
-    text: "Excelente material para el centro espírita. Los bonos por sí solos ya valen la inversión. Lo recomiendo de corazón.",
+    text: "Excelente material para la parroquia y la comunidad católica. Los bonos por sí solos ya valen la inversión. Lo recomiendo de corazón.",
   },
   {
     name: "Ana Paula L.",
     date: "10 Enero 2026",
-    text: "Lo aplico en casa con mis hijos. Podemos hablar sobre Jesús y Kardec de una manera ligera y divertida.",
+    text: "Lo aplico en casa con mis hijos. Podemos hablar sobre Jesús y la Virgen María de una manera ligera y divertida.",
   },
   {
     name: "Camila R.",
     date: "3 Enero 2026",
-    text: "Soy evangelizadora desde hace 6 años y este material renovó por completo mis clases. ¡A los niños les encantan las dinámicas!",
+    text: "Soy catequista desde hace 6 años y este material renovó por completo mis encuentros. ¡A los niños les encantan las dinámicas!",
   },
   {
     name: "Gabriela F.",
@@ -168,33 +167,33 @@ export const testimonials = [
   {
     name: "Mariana D.",
     date: "5 Enero 2026",
-    text: "La planificación anual de los bonos me salvó. Pude organizar todo el año de evangelización en una tarde.",
+    text: "La planificación anual de catequesis me salvó. Pude organizar todo el año de catequesis en una tarde.",
   },
   {
     name: "Larissa P.",
     date: "20 Diciembre 2025",
-    text: "Acabo de comprarlo y ya me encanta. Contenido profundo, pero presentado con mucha ligereza y amor.",
+    text: "Acabo de comprarlo y ya me encanta. Contenido profundo sobre la fe católica, pero presentado con mucha ligereza y amor.",
   },
 ];
 
 export const basicList: { text: string; ok: boolean }[] = [
   { text: "Acceso a 100 dinámicas seleccionadas", ok: true },
-  { text: "Modelo de Planificación Anual (PPI)", ok: false },
-  { text: "50 Historias Espíritas para Niños", ok: false },
-  { text: "Dinámicas para Fechas Espíritas Especiales", ok: false },
-  { text: "Colección de Oraciones para Evangelizadores", ok: false },
-  { text: "Cancionero Espírita Infantil", ok: false },
-  { text: "Pequeño Glosario Espírita Infantil", ok: false },
+  { text: "Modelo de Planificación Anual de Catequesis", ok: false },
+  { text: "50 Historias Bíblicas para Niños", ok: false },
+  { text: "Dinámicas para Fechas Católicas Especiales", ok: false },
+  { text: "Colección de Oraciones para Niños y Catequistas", ok: false },
+  { text: "Cancionero Católico Infantil", ok: false },
+  { text: "Pequeño Glosario de Fe Católica para Niños", ok: false },
 ];
 
 export const completeList = [
-  "+500 dinámicas espíritas completas",
-  "🎁 Bono #1 Modelo de Planificación Anual (PPI)",
-  "🎁 Bono #2 50 Historias Espíritas para Niños",
-  "🎁 Bono #3 Dinámicas para Fechas Espíritas Especiales",
-  "🎁 Bono #4 Colección de Oraciones para Evangelizadores",
-  "🎁 Bono #5 Cancionero Espírita Infantil",
-  "🎁 Bono #6 Pequeño Glosario Espírita Infantil",
+  "+500 dinámicas católicas completas",
+  "🎁 Bono #1 Modelo de Planificación Anual de Catequesis",
+  "🎁 Bono #2 50 Historias Bíblicas para Niños",
+  "🎁 Bono #3 Dinámicas para Fechas Católicas Especiales",
+  "🎁 Bono #4 Colección de Oraciones para Niños y Catequistas",
+  "🎁 Bono #5 Cancionero Católico Infantil",
+  "🎁 Bono #6 Pequeño Glosario de Fe Católica para Niños",
   "🔄 Acceso de por vida y actualizaciones gratuitas",
   "🛡️ Garantía incondicional de 7 días",
   "📧 Soporte prioritario por e-mail",
@@ -215,12 +214,12 @@ export const faqs = [
   {
     question: "¿Sirve para cualquier edad?",
     answer:
-      "¡Sí! El contenido incluye más de 500 dinámicas adaptadas para todas las edades y ciclos de la evangelización infantil espírita.",
+      "¡Sí! El contenido incluye más de 500 dinámicas adaptadas para todas las edades, etapas de catequesis y formación cristiana infantil.",
   },
   {
     question: "¿Puedo usarlo en casa con mis hijos?",
     answer:
-      "¡Por supuesto! El material es ideal tanto para evangelizadores en casas espíritas como para madres, padres y familias que desean realizar evangelización en el hogar de forma práctica y entretenida.",
+      "¡Por supuesto! El material es ideal tanto para catequistas en parroquias y comunidades como para madres, padres y familias que desean enseñar la fe católica en el hogar.",
   },
   {
     question: "¿Las actualizaciones son gratuitas?",
