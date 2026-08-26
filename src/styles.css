@@ -71,6 +71,13 @@
 
 :root {
   --radius: 0.625rem;
+  --brand: oklch(0.55 0.23 262);
+  --brand-dark: oklch(0.45 0.2 262);
+  --success: oklch(0.58 0.17 148);
+  --danger: oklch(0.57 0.21 27);
+  --navy: oklch(0.21 0.05 264);
+  --softblue: oklch(0.95 0.03 250);
+  --softgray: oklch(0.98 0.003 250);
   --background: oklch(1 0 0);
   --foreground: oklch(0.129 0.042 264.695);
   --card: oklch(1 0 0);
