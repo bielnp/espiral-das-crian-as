@@ -298,7 +298,7 @@ function Index() {
           <div className="mx-auto mt-12 w-full max-w-sm rounded-2xl bg-white px-8 py-6 shadow-md">
             <p className="text-sm text-muted-foreground">Valor total de los bonos</p>
             <p className="mt-2 text-2xl font-extrabold">
-              <span className="text-muted-foreground line-through">US$ 49,00</span>{" "}
+              <span className="text-muted-foreground line-through">$ 49,00</span>{" "}
               <span className="text-success">GRATIS hoy</span>
             </p>
           </div>
@@ -385,11 +385,11 @@ function Index() {
                 ))}
               </ul>
               <div className="mt-8 text-center">
-                <p className="text-sm font-semibold text-danger line-through">de US$ 17,00 por</p>
-                <p className="text-5xl font-extrabold text-success">US$ 7,00</p>
+                <p className="text-sm font-semibold text-danger line-through">de $ 17,00 por</p>
+                <p className="text-5xl font-extrabold text-success">$ 7,00</p>
                 <p className="mt-1 text-sm text-muted-foreground">pago único</p>
                 <p className="mt-2 text-sm">
-                  • Ahorras <strong>US$ 10,00</strong>
+                  • Ahorras <strong>$ 10,00</strong>
                 </p>
                 <a
                   href="#precos"
@@ -441,11 +441,11 @@ function Index() {
                 ))}
               </ul>
               <div className="mt-8 text-center">
-                <p className="text-sm font-semibold text-danger line-through">de US$ 39,00 por</p>
-                <p className="text-5xl font-extrabold text-success sm:text-6xl">US$ 15,00</p>
-                <p className="mt-1 text-sm text-muted-foreground">o 3x de US$ 5,99 con tarjeta</p>
+                <p className="text-sm font-semibold text-danger line-through">de $ 39,00 por</p>
+                <p className="text-5xl font-extrabold text-success sm:text-6xl">$ 15,00</p>
+                <p className="mt-1 text-sm text-muted-foreground">o 3x de $ 5,99 con tarjeta</p>
                 <p className="mt-2 text-sm">
-                  • Ahorras <strong>US$ 24,00</strong>
+                  • Ahorras <strong>$ 24,00</strong>
                 </p>
                 <a
                   href="#precos"
