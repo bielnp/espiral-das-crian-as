@@ -199,3 +199,37 @@ export const completeList = [
   "📧 Suporte prioritário por e-mail",
   "🔒 Compra 100% segura e protegida",
 ];
+
+export const faqs = [
+  {
+    question: "¿Cómo recibo las dinámicas?",
+    answer:
+      "El acceso es inmediato tras la confirmación del pago. Recibes todo el material directamente en tu correo electrónico y a través de WhatsApp para descargarlo al instante.",
+  },
+  {
+    question: "¿El material es digital?",
+    answer:
+      "Sí, todo el material es 100% digital en formato PDF. Puedes acceder a él desde tu teléfono, tablet o computadora, e imprimir las hojas de actividades cuando lo necesites.",
+  },
+  {
+    question: "¿Sirve para cualquier edad?",
+    answer:
+      "¡Sí! El contenido incluye más de 500 dinámicas adaptadas para todas las edades y ciclos de la evangelización infantil espírita.",
+  },
+  {
+    question: "¿Puedo usarlo en casa con mis hijos?",
+    answer:
+      "¡Por supuesto! El material es ideal tanto para evangelizadores en casas espíritas como para madres, padres y familias que desean realizar evangelización en el hogar de forma práctica y entretenida.",
+  },
+  {
+    question: "¿Las actualizaciones son gratuitas?",
+    answer:
+      "Sí, obtienes acceso vitalicio y recibirás todas las futuras actualizaciones del material sin ningún costo adicional.",
+  },
+  {
+    question: "¿Tengo garantía?",
+    answer:
+      "Sí, cuentas con una garantía incondicional de 7 días. Si por cualquier motivo sientes que el material no cumple tus expectativas, te devolvemos el 100% de tu inversión sin preguntas.",
+  },
+];
+

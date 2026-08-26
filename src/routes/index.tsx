@@ -14,7 +14,15 @@ import {
   testimonials,
   basicList,
   completeList,
+  faqs,
 } from "@/components/landing/data";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -432,9 +440,63 @@ function Index() {
         </div>
       </section>
 
+      {/* 10. Preguntas frecuentes */}
+      <section className="bg-softblue px-4 pb-20">
+        <div className="mx-auto max-w-4xl text-center">
+          <Badge>❓ Preguntas frecuentes</Badge>
+          <h2 className="mt-6 text-3xl font-extrabold sm:text-5xl">Preguntas frecuentes</h2>
+          
+          <div className="mt-12 text-left">
+            <Accordion type="single" collapsible className="w-full space-y-4">
+              {faqs.map((faq, index) => (
+                <AccordionItem
+                  key={index}
+                  value={`faq-${index}`}
+                  className="rounded-2xl border border-border bg-white px-6 py-2 shadow-sm transition hover:shadow-md border-b-0"
+                >
+                  <AccordionTrigger className="text-left text-base font-bold text-navy hover:no-underline sm:text-lg">
+                    {faq.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-sm leading-relaxed text-muted-foreground sm:text-base border-t border-border/50 pt-3 pb-4">
+                    {faq.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </div>
+        </div>
+      </section>
+
+      {/* 11. Garantía incondicional de 7 días */}
+      <section className="bg-softblue px-4 pb-24">
+        <div className="mx-auto max-w-4xl text-center">
+          <div className="rounded-3xl border-2 border-success/30 bg-white p-8 text-center shadow-xl sm:p-12">
+            <div className="text-4xl sm:text-5xl">🛡️</div>
+            <div className="mt-4">
+              <span className="inline-flex items-center gap-2 rounded-full bg-softblue px-4 py-1.5 text-xs font-bold text-navy border border-border sm:text-sm">
+                Riesgo cero · 7 días de garantía
+              </span>
+            </div>
+            <h2 className="mt-6 text-3xl font-extrabold text-navy sm:text-4xl">
+              Garantía incondicional de 7 días
+            </h2>
+            <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
+              Accede a todas las dinámicas, revisa los bonos y aplícalos en tus clases. Si por
+              cualquier motivo sientes que no vale cada centavo, solo tienes que enviar un e-mail
+              dentro de los 7 días y te devolvemos el{" "}
+              <strong className="font-extrabold text-success underline decoration-success/30 underline-offset-4">
+                100% de tu inversión
+              </strong>{" "}
+              — sin preguntas. El riesgo es todo nuestro.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <footer className="bg-navy px-4 py-8 text-center text-xs text-white/60">
         © {new Date().getFullYear()} +500 Dinâmicas para Evangelização Espírita Infantil
       </footer>
+
     </main>
   );
 }
