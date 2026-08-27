@@ -177,7 +177,7 @@ export const testimonials = [
 ];
 
 export const basicList: { text: string; ok: boolean }[] = [
-  { text: "Acceso a 100 dinámicas seleccionadas", ok: true },
+  { text: "Acceso a las +500 dinámicas católicas", ok: true },
   { text: "Modelo de Planificación Anual de Catequesis", ok: false },
   { text: "50 Historias Bíblicas para Niños", ok: false },
   { text: "Dinámicas para Fechas Católicas Especiales", ok: false },

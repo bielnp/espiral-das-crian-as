@@ -442,10 +442,10 @@ function Index() {
               </ul>
               <div className="mt-8 text-center">
                 <p className="text-sm font-semibold text-danger line-through">de $ 39,00 por</p>
-                <p className="text-5xl font-extrabold text-success sm:text-6xl">$ 15,00</p>
-                <p className="mt-1 text-sm text-muted-foreground">o 3x de $ 5,99 con tarjeta</p>
+                <p className="text-5xl font-extrabold text-success sm:text-6xl">$ 10,00</p>
+                <p className="mt-1 text-sm text-muted-foreground">o 3x de $ 3,33 con tarjeta</p>
                 <p className="mt-2 text-sm">
-                  • Ahorras <strong>$ 24,00</strong>
+                  • Ahorras <strong>$ 29,00</strong>
                 </p>
                 <a
                   href="#precos"
