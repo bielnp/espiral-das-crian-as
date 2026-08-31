@@ -392,7 +392,7 @@ function Index() {
                   • Ahorras <strong>$ 10,00</strong>
                 </p>
                 <a
-                  href="https://pay.hotmart.com/L107360162K?off=zxqatjtp"
+                  href="https://pay.hotmart.com/L107360162K?off=zxqatjtp&checkoutMode=10"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-6 block rounded-xl bg-success py-4 text-sm font-extrabold uppercase tracking-wide text-white transition hover:brightness-95"
@@ -450,7 +450,7 @@ function Index() {
                   • Ahorras <strong>$ 29,00</strong>
                 </p>
                 <a
-                  href="https://pay.hotmart.com/L107360162K?off=y6enxnwq"
+                  href="https://pay.hotmart.com/L107360162K?off=y6enxnwq&checkoutMode=10"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-6 block rounded-xl bg-success py-5 text-base font-extrabold uppercase tracking-wide text-white transition hover:brightness-95"
