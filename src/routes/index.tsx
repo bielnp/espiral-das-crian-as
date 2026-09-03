@@ -1,5 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Check, X, Star } from "lucide-react";
+import { useState } from "react";
+
+import { UpsellModal } from "@/components/landing/UpsellModal";
 
 import heroMockup from "@/assets/hero-mockup.jpg";
 import packBasic from "@/assets/pack-basic.jpg";
@@ -72,6 +75,18 @@ function GreenCheck() {
 }
 
 function Index() {
+  const [upsellOpen, setUpsellOpen] = useState(false);
+
+  const openUpsell = (e: React.MouseEvent) => {
+    e.preventDefault();
+    setUpsellOpen(true);
+  };
+
+  const closeUpsell = () => {
+    setUpsellOpen(false);
+    window.location.href = "https://pay.hotmart.com/L107360162K?off=zxqatjtp&checkoutMode=10";
+  };
+
   return (
     <main className="font-sans text-navy">
       {/* 1. Top bar */}
@@ -391,14 +406,12 @@ function Index() {
                 <p className="mt-2 text-sm">
                   • Ahorras <strong>$ 10,00</strong>
                 </p>
-                <a
-                  href="https://pay.hotmart.com/L107360162K?off=zxqatjtp&checkoutMode=10"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-6 block rounded-xl bg-success py-4 text-sm font-extrabold uppercase tracking-wide text-white transition hover:brightness-95"
+                <button
+                  onClick={openUpsell}
+                  className="mt-6 w-full rounded-xl bg-success py-4 text-sm font-extrabold uppercase tracking-wide text-white transition hover:brightness-95"
                 >
                   Quiero el Paquete Básico
-                </a>
+                </button>
               </div>
             </div>
 
@@ -518,6 +531,38 @@ function Index() {
           </div>
         </div>
       </section>
+
+      <UpsellModal
+        isOpen={upsellOpen}
+        onClose={closeUpsell}
+        title="¡Espera! Antes de continuar..."
+        subtitle="Por solo US$ 1,90 más, desbloquea el Paquete Premium con todos los bonos, acceso vitalicio y soporte prioritario."
+        upgradeLabel="Oferta exclusiva de upgrade"
+        fromPlan={{
+          name: "Básico",
+          price: "US$ 7,00",
+          items: [
+            { text: "Acceso a +500 dinámicas", included: true },
+            { text: "Material organizado por temas", included: true },
+            { text: "Acceso inmediato", included: true },
+            { text: "Garantía de 7 días", included: true },
+          ],
+        }}
+        toPlan={{
+          name: "Premium",
+          price: "US$ 8,90",
+          items: [
+            { text: "+500 dinámicas completas", included: true },
+            { text: "6 bonos exclusivos incluidos", included: true },
+            { text: "Acceso vitalicio + actualizaciones", included: true },
+            { text: "Soporte prioritario por e-mail", included: true },
+          ],
+        }}
+        acceptText="Sí, quiero el Premium"
+        acceptUrl="https://pay.hotmart.com/L107360162K?off=memy0o86&checkoutMode=10"
+        declineText="No, continuar con el Básico"
+        declineUrl="https://pay.hotmart.com/L107360162K?off=zxqatjtp&checkoutMode=10"
+      />
 
       <footer className="bg-navy px-4 py-8 text-center text-xs text-white/60">
         © {new Date().getFullYear()} +500 Dinámicas para Evangelización Católica Infantil
