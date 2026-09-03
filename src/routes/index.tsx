@@ -406,14 +406,12 @@ function Index() {
                 <p className="mt-2 text-sm">
                   • Ahorras <strong>$ 10,00</strong>
                 </p>
-                <a
-                  href="https://pay.hotmart.com/L107360162K?off=zxqatjtp&checkoutMode=10"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-6 block rounded-xl bg-success py-4 text-sm font-extrabold uppercase tracking-wide text-white transition hover:brightness-95"
+                <button
+                  onClick={openUpsell}
+                  className="mt-6 w-full rounded-xl bg-success py-4 text-sm font-extrabold uppercase tracking-wide text-white transition hover:brightness-95"
                 >
                   Quiero el Paquete Básico
-                </a>
+                </button>
               </div>
             </div>
 
