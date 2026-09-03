@@ -75,6 +75,18 @@ function GreenCheck() {
 }
 
 function Index() {
+  const [upsellOpen, setUpsellOpen] = useState(false);
+
+  const openUpsell = (e: React.MouseEvent) => {
+    e.preventDefault();
+    setUpsellOpen(true);
+  };
+
+  const closeUpsell = () => {
+    setUpsellOpen(false);
+    window.location.href = "https://pay.hotmart.com/L107360162K?off=zxqatjtp&checkoutMode=10";
+  };
+
   return (
     <main className="font-sans text-navy">
       {/* 1. Top bar */}
