@@ -1,5 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Check, X, Star } from "lucide-react";
+import { useState } from "react";
+
+import { UpsellModal } from "@/components/landing/UpsellModal";
 
 import heroMockup from "@/assets/hero-mockup.jpg";
 import packBasic from "@/assets/pack-basic.jpg";
