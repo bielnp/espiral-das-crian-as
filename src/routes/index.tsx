@@ -532,6 +532,38 @@ function Index() {
         </div>
       </section>
 
+      <UpsellModal
+        isOpen={upsellOpen}
+        onClose={closeUpsell}
+        title="¡Espera! Antes de continuar..."
+        subtitle="Por solo US$ 1,90 más, desbloquea el Paquete Premium con todos los bonos, acceso vitalicio y soporte prioritario."
+        upgradeLabel="Oferta exclusiva de upgrade"
+        fromPlan={{
+          name: "Básico",
+          price: "US$ 7,00",
+          items: [
+            { text: "Acceso a +500 dinámicas", included: true },
+            { text: "Material organizado por temas", included: true },
+            { text: "Acceso inmediato", included: true },
+            { text: "Garantía de 7 días", included: true },
+          ],
+        }}
+        toPlan={{
+          name: "Premium",
+          price: "US$ 8,90",
+          items: [
+            { text: "+500 dinámicas completas", included: true },
+            { text: "6 bonos exclusivos incluidos", included: true },
+            { text: "Acceso vitalicio + actualizaciones", included: true },
+            { text: "Soporte prioritario por e-mail", included: true },
+          ],
+        }}
+        acceptText="Sí, quiero el Premium"
+        acceptUrl="https://pay.hotmart.com/L107360162K?off=memy0o86&checkoutMode=10"
+        declineText="No, continuar con el Básico"
+        declineUrl="https://pay.hotmart.com/L107360162K?off=zxqatjtp&checkoutMode=10"
+      />
+
       <footer className="bg-navy px-4 py-8 text-center text-xs text-white/60">
         © {new Date().getFullYear()} +500 Dinámicas para Evangelización Católica Infantil
       </footer>
